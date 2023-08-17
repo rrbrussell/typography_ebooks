@@ -1,0 +1,33 @@
+\documentclass[letterpaper,12pt]{book}
+\usepackage{geometry}
+\geometry{hmargin=.75in, vmargin=.75in, twoside, bindingoffset=.25in}
+\usepackage{fontspec}
+\setmainfont{Antykwa Torunska}
+\usepackage{lettrine}
+\renewcommand{\LettrineTextFont}{\rmfamily}
+\usepackage{hyperref}
+\hypersetup{
+	pdftitle={The Compositor's Text-Book:},
+    pdfauthor={John Graham \& John Wilson},
+	pdfcreator={Robert R. Russell},
+	bookmarksnumbered=true,
+	bookmarks=true,
+	bookmarksopen=true,
+	bookmarksopenlevel=1,
+	pdfstartview=FitH,
+	pdfview=FitH,
+	pdfpagemode=UseOutlines,
+}
+\usepackage{subfiles}
+
+\begin{document}
+\frontmatter
+\title{The Compositor's Text-Book:}
+\author{John Graham}
+\date{1848}
+\pdfbookmark{Title Page}{title}
+\maketitle
+\tableofcontents
+\mainmatter{}
+\input{preface}
+\end{document}
