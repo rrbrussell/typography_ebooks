@@ -2,8 +2,8 @@
 \usepackage{geometry}
 \geometry{papersize={4.3in, 7.2in}, hmargin=.5in, vmargin=.5in, twoside}
 \usepackage{fontspec}
-\setmainfont{Source Sans 3}
-%\usepackage{CormorantGaramond}
+%\usepackage{CharisSIL}
+\usepackage{Alegreya}
 %\usepackage{lettrine}
 %\renewcommand{\LettrineTextFont}{\rmfamily}
 \usepackage{hyperref}
@@ -23,7 +23,11 @@
 
 %hyphenation fixes
 \hyphenation{Punct-uation}
+\hyphenation{in-fir-ma-ry}
+\hyphenation{in-at-ten-tion}
 
+%custom environment
+\newenvironment{example}{\footnotesize\bfseries}{\normalsize\mdseries}
 
 \begin{document}
 \frontmatter
